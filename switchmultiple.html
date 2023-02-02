@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     
+     let marks=prompt("Enter your marks");
+
+     switch(true){
+        case (marks >= 90 && marks <=100):
+           document.write("Very good");
+           break; 
+        
+        case (marks >= 70 && marks<90):
+            document.write("Good");
+            break;    
+
+        case (marks >= 50 && marks<70):
+            document.write("Satisfied");
+            break;
+
+        case (marks >=40 && marks <50):
+            document.write("Not Satisfied");
+            break;
+
+        default:
+            document.write("Failed");
+     }
+       
+  </script>
+</body>
+</html>
